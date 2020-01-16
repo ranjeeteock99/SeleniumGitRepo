@@ -26,7 +26,7 @@ public void test() throws InterruptedException
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
 	System.out.println("selenium");
-	System.out.println("My Second Script");
+	System.out.println("My Third Script");
 }
 
 }
