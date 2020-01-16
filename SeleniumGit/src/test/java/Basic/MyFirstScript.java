@@ -25,7 +25,8 @@ public void test() throws InterruptedException
 	driver.findElement(By.xpath("//input[@type='password']")).sendKeys("password@123");
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
-	System.out.println("My First Script");
+	System.out.println("selenium");
+	System.out.println("My Second Script");
 }
 
 }
